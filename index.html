@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essence</title>
+    <script src="https://kit.fontawesome.com/d65e853b8d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container__fluid">
+        <div class="left__side">
+            <h1 class="heading_left">Welcome Back!</h1>
+            <p class="paragraph">To keep connected with us please <br> login with your personal info</p>
+            <button onclick={signIn()} class="primary__btn">SIGN IN</button>
+            <button onclick={signUp()} class="secondary__btn">SIGN UP</button>
+        </div>
+        <div class="right__side">
+            <!--  -->
+
+            <div class="signUp">
+                <h1 class="heading_right"> Create Account</h1>
+                <div class="icon">
+                <div class="icon-box">
+                        <i class="fa fa-facebook"></i>
+                </div>
+                <div class="icon-box">
+                        <i class="fa fa-google"></i>
+                </div>
+                <div class="icon-box">
+                        <i class="fa fa-instagram"></i>
+                </div>
+                </div>
+                <p class="r-paragraph"> or use your email for registration</p>
+                <form action="">
+                    <div class="input__field">
+                        <i class="fa fa-user"></i>
+                        <input type="text" name="" id="" placeholder="Name">
+                    </div>
+                    <div class="input__field">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" name="" id="" placeholder="Email">
+                    </div>
+                    <div class="input__field">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" name="" id="" placeholder="Password">
+                    </div>
+                    <button class="signUp__btn">SIGN UP</button>
+                   
+                </form>
+            </div>
+
+
+            <div class="signIn">
+                <h1 class="heading_right">Sign In to Essence </h1>
+                <div class="icon">
+                    <div class="icon-box">
+                            <i class="fa fa-facebook"></i>
+                    </div>
+                    <div class="icon-box">
+                            <i class="fa fa-google"></i>
+                    </div>
+                    <div class="icon-box">
+                            <i class="fa fa-instagram"></i>
+                    </div>
+                </div>
+                <p class="r-paragraph"> or use your email</p>
+                <form action="">
+                    
+                    <div class="input__field">
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" name="" id="" placeholder="Email">
+                    </div>
+                    <div class="input__field">
+                        <i class="fa fa-lock"></i>
+                        <input type="password" name="" id="" placeholder="Password">
+                    </div>
+                    <button class="signUp__btn">SIGN IN</button>
+                   
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
